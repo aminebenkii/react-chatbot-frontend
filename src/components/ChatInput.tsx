@@ -25,7 +25,7 @@ export default function ChatInput({ onSend }: { onSend: (text: string) => void }
       className="flex items-center gap-2 p-2 border-t bg-white rounded-b-2xl"
     >
       <Input
-        className="flex-1 px-3 py-2 bg-transparent border-none focus:ring-0 focus:outline-none text-sm"
+        className="flex-1 px-3 py-2 bg-transparent border-none focus:ring-0 focus:outline-none text-[16px] sm:text-sm"
         type="text"
         placeholder={placeholder}
         value={value}
